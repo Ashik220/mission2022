@@ -1,0 +1,121 @@
+.vertical-line{
+  font-family: 'Yeseva One', cursive;
+  font-weight:500;
+  font-size: 50px;
+  border-left: 5px solid;
+  border-image: linear-gradient(red, orangered);
+  border-image-slice: 1 ;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+.flexible-content{
+  display: flex;
+  margin-bottom: 0px;
+}
+ p{ 
+  font-size: 20px;
+  text-align:justify;
+  padding-bottom: 10px;
+}
+.orangered{
+  color: orangered;
+}
+.half-width{
+  width: 50%;
+  margin-top: 80px; 
+  margin-left: 150px;
+  padding-right: 20px;
+  
+}
+.half-width img{
+  width: 80%;
+}
+.link-button{
+  text-decoration: none;
+  color:white;
+  background-image: linear-gradient(rgb(255, 85, 85), rgb(252, 95, 95));
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+#scroll-down{
+  padding-top: 20px;
+}
+.centered-title{
+  text-align: center;
+  font-size: 40px;
+}
+.my-mission{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 40px gray;
+}
+#box-mission{
+  background-color: rgb(222, 233, 233);
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  position: relative;
+  left: 100px;
+  
+}
+#box-vission{
+  background-color: rgb(255, 227, 241);
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  position: relative;
+  left: 0 px; 
+  
+}
+#box-goals{
+  background-color: rgb(255, 242, 201);
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  position: relative;
+  right: 100px;
+  
+}
+.box-position{
+  display: flex;
+  flex-direction:flex-start flex-end  center;
+  justify-content: space-around;
+  position:relative; 
+}
+.illustration{
+  width: 45%;
+  padding-left: 15px;
+}
+.box-text{
+  padding-left: 25px;
+  margin-top: 5px;
+}
+footer{
+  background-color: rgb(16, 14, 22);
+  margin: 0px;
+  padding: 15px;
+  color: whitesmoke;
+  text-align: center;
+}
+footer p{
+  text-align: center;
+}
+.text-inside-box{
+  padding: 20px;
+  text-align: justify;
+  font-size: 18px;
+}
+.green{
+  color: #afd966;
+}
+#green-button{
+  text-decoration: none;
+  color:white;
+  background-image: linear-gradient(#afd966,#7ec700);
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: 500;
+}
